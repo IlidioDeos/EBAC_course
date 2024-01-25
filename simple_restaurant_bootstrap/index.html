@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="header-site">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Logo Restaurante</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-full">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="nav-full">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-restaurante" class="nav-link">
+                            <i class="bi bi-house-door"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos-restaurante" class="nav-link">
+                            <i class="bi bi-calendar-event"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cardapio-restaurante" class="nav-link">
+                            <i class="bi bi-book"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato-restaurante" class="nav-link">
+                            <i class="bi bi-telephone"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/images/slide1.jpg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/slide2.jpg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/slide3.jpg" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <div data-bs-spy="scroll" data-bs-target="header-site">
+        <section id="sobre-restaurante" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mt-4">
+                        <h2>Sobre</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repellendus voluptas voluptatem
+                        labore ipsam, reiciendis voluptatibus! Ex, alias incidunt error magnam at doloremque quo aliquam
+                        ducimus officia officiis pariatur enim.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae enim sequi incidunt cupiditate
+                        blanditiis omnis eligendi a adipisci, esse obcaecati! A, temporibus numquam aliquid in assumenda
+                        eligendi reprehenderit? Deleniti, dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo, porro id nesciunt vel
+                        consequatur
+                        repudiandae natus doloremque hic illo rem soluta iusto temporibus at possimus esse enim animi
+                        debitis.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="header-site"></div>
+    <section id="eventos-restaurante" class="pt-5 pb-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2>Eventos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus itaque inventore eum
+                        nihil neque reiciendis totam rerum fuga illum perspiciatis nisi explicabo, a corporis dolor
+                        molestiae eaque voluptates quas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur qui, voluptate minus sapiente
+                        beatae voluptatibus libero, eveniet in voluptatem repellendus sunt ducimus ipsa accusantium
+                        inventore porro minima ipsam commodi odio?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem neque
+                        laborum aut similique iste ut quos excepturi, cupiditate rerum necessitatibus molestias amet
+                        dolores dolorum cumque sit ex vitae?</p>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <img src="/images/aniversario.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="header-site"></div>
+    <section id="cardapio-restaurante" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row mt-3">
+                <h2>Cardápio</h2>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-md-6">
+                    <!-- Abas -->
+                    <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="entradas-tab" data-bs-toggle="tab" href="#entradas"
+                                role="tab" aria-controls="entradas" aria-selected="true">Entradas</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="principal-tab" data-bs-toggle="tab" href="#principal" role="tab"
+                                aria-controls="principal" aria-selected="false">Prato Principal</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="sobremesas-tab" data-bs-toggle="tab" href="#sobremesas" role="tab"
+                                aria-controls="sobremesas" aria-selected="false">Sobremesas</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="bebidas-tab" data-bs-toggle="tab" href="#bebidas" role="tab"
+                                aria-controls="bebidas" aria-selected="false">Bebidas</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="tab-content mt-3">
+                        <div class="tab-pane fade show active" id="entradas" role="tabpanel"
+                            aria-labelledby="entradas-tab">
+                            <p>Conteúdo das entradas...</p>
+                        </div>
+                        <div class="tab-pane fade" id="principal" role="tabpanel" aria-labelledby="principal-tab">
+                            <p>Conteúdo do prato principal...</p>
+                        </div>
+                        <div class="tab-pane fade" id="sobremesas" role="tabpanel" aria-labelledby="sobremesas-tab">
+                            <p>Conteúdo das sobremesas...</p>
+                        </div>
+                        <div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="bebidas-tab">
+                            <p>Conteúdo das bebidas...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://placehold.co/600x345" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="header-site">
+        <section id="contato-restaurante">
+            <div class="container">
+                <div class="row justify-content-center pt-5 pb-5">
+                    <div class="col-md-8">
+                        <h2 class="text-center mb-4 mt-3">Fale Conosco</h2>
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div class="text-light text-center py-3 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 p-5 p-5">
+                        <h3>Contato</h3>
+                        <p>Email: contato@example.com</p>
+                        <p>Telefone: (123) 456-7890</p>
+                    </div>
+                    <div class="col-md-4 p-5 p-5">
+                        <p>&copy; 2024 Nome do Seu Restaurante. Todos os direitos reservados.</p>
+                        <i class="bi bi-facebook p-2"></i>
+                        <i class="bi bi-instagram p-2"></i>
+                        <i class="bi bi-youtube p-2"></i>
+                    </div>
+                    <div class="col-md-4 p-5 p-5">
+                        <h3>Links Úteis</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">Termos de Serviço</a></li>
+                            <li><a href="#" class="text-decoration-none">Política de Privacidade</a></li>
+                            <li><a href="#" class="text-decoration-none">Sobre Nós</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

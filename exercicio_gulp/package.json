@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
